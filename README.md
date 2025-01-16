@@ -1,4 +1,4 @@
-https://github.com/saltfish259/Forecast-Facebook-Prophet-Samsung-/tree/main# Laporan Proyek Machine Learning - Razif Zulvikar Hatuwe
+# Forecasting Using Facebook Prophet - Razif Zulvikar Hatuwe
 
 ## A. Domain Proyek 
 Latar Belakang 
