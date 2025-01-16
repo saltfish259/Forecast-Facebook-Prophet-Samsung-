@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Razif Zulvikar Hatuwe
+https://github.com/saltfish259/Forecast-Facebook-Prophet-Samsung-/tree/main# Laporan Proyek Machine Learning - Razif Zulvikar Hatuwe
 
 ## A. Domain Proyek 
 Latar Belakang 
@@ -29,15 +29,17 @@ Solution Statements
 ## C. Data Understanding
 Informasi data yang di gunakan sebagai berikut : 
 1. Jumlah Data : 1430 Baris dan 7 Kolom 
-2. Kondisi Data : 
-                    - Missing Value : Tidak terdapat missing value pada kolom apapun. 
-                    - Duplikat : Tidak terdapat data duplikat.
-                    - Outlier : 
-                                - Kolom Open, High, low, Close, dan Adj Close : Tidak ada outlier. 
-                                - Kolom Volume : Terdapat 66 outlier.
-3. Tautan Sumber Data : https://www.kaggle.com/datasets/caesarmario/samsung-electronics-stock-historical-price.
-4. Uraian Fitur :
-Dataset berisi informasi historis harga saham Samsung Electronics dari 2019-01-02 hingga 2024-10-25. Dataset terdiri dari kolom berikut: 
+2. Kondisi Data :
+   - **Missing Value** : Tidak terdapat missing value pada kolom apapun.
+   - **Duplikat** : Tidak terdapat data duplikat.
+   - **Outlier** :
+     - **Kolom Open, High, Low, Close, dan Adj Close** : Tidak ada outlier.
+     - **Kolom Volume** : Terdapat 66 outlier.
+
+4. Tautan Sumber Data : https://www.kaggle.com/datasets/caesarmario/samsung-electronics-stock-historical-price.
+5. Uraian Fitur :
+Dataset berisi informasi historis harga saham Samsung Electronics dari 2019-01-02 hingga 2024-10-25. Dataset terdiri dari kolom berikut:
+
 | Nama Tabel | Info Table                                     |
 |------------|------------------------------------------------|
 | Date       | Tanggal pencatatan saham.                      |
@@ -45,8 +47,9 @@ Dataset berisi informasi historis harga saham Samsung Electronics dari 2019-01-0
 | High       | Harga tertinggi saham pada hari tersebut.      |
 | Low        | Harga terendah saham pada hari tersebut.       |
 | Close      | Harga penutupan saham pada hari tersebut.      |
-| Adj Close  | Harga penutupan saham yang telah di sesuaikan. |
+| Adj Close  | Harga penutupan saham yang telah disesuaikan.  |
 | Volume     | Jumlah transaksi saham yang terjadi.           |
+
     
 ## D. Data Preparation
 1. Membagi Data Menjadi Data Latih dan Data Uji: Memisahkan dataset menjadi dua bagian: ```train_data``` dan ```test_data```.
